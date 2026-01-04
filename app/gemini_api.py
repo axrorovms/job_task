@@ -6,11 +6,7 @@ from app.config import (
     MAX_HISTORY_MESSAGES,
 )
 
-# Configure Gemini
-genai.configure(api_key='AIzaSyCcjWMXy1vbt0Kw5lMGPDChounF0YhyH1o')
-
-# In-memory thread storage
-# thread_id -> list of messages
+genai.configure(api_key=GOOGLE_API_KEY)
 THREADS: dict[str, list[dict]] = {}
 
 

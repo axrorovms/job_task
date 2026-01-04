@@ -1,12 +1,10 @@
 import os
 
-# Gemini API Key
+# Gemini settings
 GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 MAX_HISTORY_MESSAGES = 10
-# Gemini model to use
 GEMINI_MODEL = "gemini-2.5-flash"
-ASSISTANT_NAME = "ShopBot"
-ASSISTANT_MODEL = "gpt-4o-mini"
+
 
 # App settings
 APP_NAME = "Task API"
